@@ -1,0 +1,122 @@
+body{
+    background:#fff;
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+ .header {
+    padding: 2em 0 0;
+}
+.w3l_logo{
+    float:left;
+    margin-left:10em;
+}
+.w3l_logo h1 a{
+    font-size:1.1em;
+    color:#212121;
+    text-decoration:none;
+
+}
+.w3l_logo h1 a span {
+    display: block;
+    font-size: .3em;
+    text-transform: capitalize;
+    letter-spacing: 7px;
+    padding-left: 4px;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+/* --------- CSS Loader End Here ------------*/
+/*footer........*/
+.footer{
+    padding:4em 0;
+    background:#fff;
+}
+.w3_footer_grid h3{
+    color: #212121;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    padding-bottom: .5em;
+    position: relative;
+    text-transform: uppercase;
+}
+.w3_footer_grid h3:after{
+    content:'';
+    background:#3c43a4;
+    width:20%;
+    height:2px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.w3_footer_grid p{
+    color:#999;
+    line-height:1.8em;
+    margin-bottom:2em;
+}
+.w3_footer_grid ul li {
+    list-style-type: none;
+    margin-bottom: 1em;
+    color: #999;
+    font-size: 14px;
+}
+.w3_footer_grid ul.address li i {
+    color:#414141;
+    border: 1px solid #414141;
+    padding: .5em;
+    margin-right: 1em;
+}
+.w3_footer_grid ul.address li span {
+    display: block;
+    margin-left: 3em;
+}
+.w3_footer_grid ul li a {
+    color: #999;
+    text-decoration: none;
+}
+.w3_footer_grid ul li a:hover {
+    color:#212121;
+}
+.w3_footer_grid ul.info li a {
+    padding-left:2.2em;
+    background: url(../prpduct_images/img-sp.png) no-repeat -6px -98px;
+}
+.w3_footer_grid h4{
+    margin:2em 0 1em;
+    font-size:1.2em;
+    color:#3c43a4;
+}
+.footer-copy-pos {
+    position: absolute;
+    right: 12%;
+    bottom: -75%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #ff5063;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    box-shadow: 0px 0px 5px 0px #ff5063;
+    -webkit-transition:.5s all;
+    -moz-transition:.5s all; 
+    transition:.5s all;
+    
+}
+.footer-copy-pos:hover {
+    box-shadow: 0px 0px 30px 5px #ff5063;
+}
+.footer-copy p{
+    margin:4em 0 0;
+    text-align:center;
+    color:#999;
+}
+.footer-copy p a{
+    color:#3c43a4;
+    text-decoration:none;
+}
+.footer-copy p a:hover{
+    color:#999;
+}
